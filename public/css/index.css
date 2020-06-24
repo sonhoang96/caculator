@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button.buttons__remote {
+    font-size: 18px;
+}
+
+.row.mr-0.ml-0.buttons__margin {
+    margin-bottom: 3px;
+}
+
+div[class*="col-"].buttons__padding {
+    padding-right: 3px !important;
+}
+
+button.buttons__remote {
+    width: 100%;
+    height: 75px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+button.buttons__remote.buttons__none__numbers {font-size: 1.2em;background: #151515;}
+
+button.buttons__remote:hover {
+    background: #384dbf;
+    transition: 0.3s;
+}
+
+.screen__expression, .screen__result {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen__result {
+    font-size: 3em;
+}
+
+.screen__expression {
+    font-size: 1.5em;
+    color: #384dbf;
+}
+
+.screen {
+    width: inherit;
+    height: 138px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0.5em;
+    overflow: hidden;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+}
+
+.header {
+    width: inherit;
+    height: 75px;
+    background: #000000;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.app {
+    width: 400px;
+    height: 600px;
+    background: #b3b3b3;
+    box-shadow: 0px 0px 10px black;
+}
+
+div#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+}
