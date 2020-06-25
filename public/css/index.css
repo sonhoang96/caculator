@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 button.buttons__remote {
@@ -44,6 +44,7 @@ button.buttons__remote:hover {
 .screen__expression {
     font-size: 1.5em;
     color: #384dbf;
+    letter-spacing: 1px;
 }
 
 .screen {
